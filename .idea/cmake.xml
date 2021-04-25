@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-Visual Studio" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DMAYA_VERSION=2020 -G &quot;Visual Studio 16 2019&quot; -A x64" ENABLED="true" />
+      <configuration PROFILE_NAME="Release-Visual Studio" CONFIG_NAME="Release" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DMAYA_VERSION=2020 -G &quot;Visual Studio 16 2019&quot; -A x64" ENABLED="false" />
+    </configurations>
+  </component>
+</project>
