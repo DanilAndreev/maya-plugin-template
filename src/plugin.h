@@ -1,12 +1,11 @@
-#ifndef MAYA_PLANTER_PLUGIN_H
-#define MAYA_PLANTER_PLUGIN_H
+#ifndef MAYA_PLUGIN_TEMPLATE_PLUGIN_H
+#define MAYA_PLUGIN_TEMPLATE_PLUGIN_H
 
 #include <maya/MFnPlugin.h>
-#include <maya/MStatus.h>
-#include <maya/MObject.h>
-#include <maya/MSimple.h>
-#include <maya/MIOStream.h>
 
-DeclareSimpleCommand( helloWorld, "Autodesk", "2017");
+MStatus initializePlugin(MObject obj);
 
-#endif //MAYA_PLANTER_PLUGIN_H
+MStatus uninitializePlugin(MObject obj);
+
+
+#endif //MAYA_PLUGIN_TEMPLATE_PLUGIN_H

@@ -6,7 +6,7 @@ endif()
 
 cmake_policy(SET CMP0048 NEW)
 
-project(maya_planter VERSION 1.0 DESCRIPTION "My Maya Plug-in" LANGUAGES CXX)
+project(maya-plugin-template VERSION 1.0 DESCRIPTION "My Maya Plug-in" LANGUAGES CXX)
 
 set (CMAKE_CXX_STANDARD 11)
 

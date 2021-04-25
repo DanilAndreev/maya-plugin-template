@@ -1,11 +1,23 @@
 #include "plugin.h"
+#include "HelloWorld.h"
 
-#include <iostream>
+MStatus initializePlugin(MObject obj) {
+    MStatus status;
+    MFnPlugin plugin(obj, "Example", "1.0", "Any");
 
+    // Register plugin command.
+    status = plugin.registerCommand("helloWorld", HelloWorld::creator);
+    CHECK_MSTATUS_AND_RETURN_IT(status);
 
-MStatus helloWorld::doIt( const MArgList& )
-{
-    cout.rdbuf(cerr.rdbuf());
-    cout << "Hello World\n" << endl;
-    return MS::kSuccess;
+    return status;
+}
+
+MStatus uninitializePlugin(MObject obj) {
+    MStatus status;
+    MFnPlugin plugin(obj);
+
+    // Deregister plugin command.
+    status = plugin.deregisterCommand("helloWorld");
+    CHECK_MSTATUS_AND_RETURN_IT(status);
+    return status;
 }
