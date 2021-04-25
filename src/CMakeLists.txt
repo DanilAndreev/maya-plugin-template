@@ -1,7 +1,5 @@
 set(SOURCE_FILES
-        "plugin.cpp"
-        "plugin.h"
-        )
+        HelloWorld.cpp HelloWorld.h plugin.cpp plugin.h)
 
 find_package(Maya REQUIRED)
 
