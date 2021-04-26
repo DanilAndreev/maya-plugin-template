@@ -5,6 +5,12 @@
     <h1>Maya plugin template</h1>
     <h4>C++ plugin template for Autodesk Maya.</h4>
     <div>
+        <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/DanilAndreev/maya-plugin-template">
+        <img alt="GitHub" src="https://img.shields.io/github/license/DanilAndreev/maya-plugin-template">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/DanilAndreev/maya-plugin-template?style=social">
+        <img alt="GitHub forks" src="https://img.shields.io/github/forks/DanilAndreev/maya-plugin-template?style=social">
+    </div>
+    <div>
         <img alt="Maya icon" height="64" src="https://damassets.autodesk.net/content/dam/autodesk/www/products/responsive-imagery/responsive-badges-compare/2017/maya-2017-badge-75x75.png"/>
         <img alt="CMake icon" height="64" src="https://cmake.org/wp-content/uploads/2018/11/cmake_logo_slider.png"/>
         <img alt="C++ icon" height="64" src="https://docs.microsoft.com//en-us/media/logos/logo_Cplusplus.svg"/>
