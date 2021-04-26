@@ -103,5 +103,5 @@ cmake --build . --target YOUR_PROJECT_NAME -j 3
 
 ## Credits
 
-Author __Danil Andreev__. Thanks to [Chad Vernon](https://github.com/chadmv)  for the [__
-cgcmake__](https://github.com/chadmv/cgcmake) library.
+Author __Danil Andreev__.  
+Thanks to [Chad Vernon](https://github.com/chadmv)  for the [__cgcmake__](https://github.com/chadmv/cgcmake) library.
