@@ -100,7 +100,7 @@ After that you can select __run configuration__ and build project.
 #### Pure CMake
 
 <details>
-<summary>Linux using MinGW</summary>
+<summary>UNIX using MinGW and Make</summary>
 
 ```bash
 mkdir build
