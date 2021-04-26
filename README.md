@@ -1,4 +1,7 @@
 <div align="center">
+    <div>
+        <img alt="Logo" height="170" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Circle-icons-plugin.svg/512px-Circle-icons-plugin.svg.png"/>
+    </div>
     <h1>Maya plugin template</h1>
     <h4>C++ plugin template for Autodesk Maya.</h4>
     <div>
