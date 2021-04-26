@@ -1,10 +1,12 @@
-# Maya plugin template
-
-<img alt="Maya icon" height="64" src="https://damassets.autodesk.net/content/dam/autodesk/www/products/responsive-imagery/responsive-badges-compare/2017/maya-2017-badge-75x75.png"/>
-<img alt="CMake icon" height="64" src="https://cmake.org/wp-content/uploads/2018/11/cmake_logo_slider.png"/>
-<img alt="C++ icon" height="64" src="https://docs.microsoft.com//en-us/media/logos/logo_Cplusplus.svg">
-
-#### C++ plugin template for Autodesk Maya.
+<div align="center">
+    <h1>Maya plugin template</h1>
+    <h4>C++ plugin template for Autodesk Maya.</h4>
+    <div>
+        <img alt="Maya icon" height="64" src="https://damassets.autodesk.net/content/dam/autodesk/www/products/responsive-imagery/responsive-badges-compare/2017/maya-2017-badge-75x75.png"/>
+        <img alt="CMake icon" height="64" src="https://cmake.org/wp-content/uploads/2018/11/cmake_logo_slider.png"/>
+        <img alt="C++ icon" height="64" src="https://docs.microsoft.com//en-us/media/logos/logo_Cplusplus.svg"/>
+    </div>
+<div/>
 
 ## Overview
 
