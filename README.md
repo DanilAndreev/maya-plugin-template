@@ -65,6 +65,24 @@ set(SOURCE_FILES
 
 > If you are using __CLion__ - files will be added automatically. You don't have to care about that.
 
+### Connecting Maya API
+
+1. Download [__Maya Development Kit (MDK)__](https://www.autodesk.com/developer-network/platform-technologies/maya) for
+   your OS.
+2. Rename __MDK__ directory to ```maya_dev_kit```
+3. Place __MDK__ to ```libraries``` directory as shown below:
+    ```
+    .
+    ├── libarires
+    │   ├── maya_dev_kit
+    │   │   ├── include
+    │   │   ├── lib
+    │   │   └── ...
+    │   ├── .gitignore
+    │   └── README.md
+    └── ...
+    ```
+
 ### Building plugin
 
 #### CLion
