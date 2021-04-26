@@ -6,7 +6,7 @@
         <img alt="CMake icon" height="64" src="https://cmake.org/wp-content/uploads/2018/11/cmake_logo_slider.png"/>
         <img alt="C++ icon" height="64" src="https://docs.microsoft.com//en-us/media/logos/logo_Cplusplus.svg"/>
     </div>
-<div/>
+</div>
 
 ## Overview
 
