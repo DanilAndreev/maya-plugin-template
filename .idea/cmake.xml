@@ -2,8 +2,22 @@
 <project version="4">
   <component name="CMakeSharedSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug-Visual Studio" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DMAYA_VERSION=2020 -G &quot;Visual Studio 16 2019&quot; -A x64" ENABLED="true" />
+      <configuration PROFILE_NAME="Debug Linux" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Default" GENERATION_OPTIONS="-G &quot;Unix Makefiles&quot; -DMAYA_VERSION=none" ENABLED="true">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="MAYA_LOCATION" value="../libraries/maya_dev_kit" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+      <configuration PROFILE_NAME="Debug-Visual Studio" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DMAYA_VERSION=2020 -G &quot;Visual Studio 16 2019&quot; -A x64" ENABLED="false" />
       <configuration PROFILE_NAME="Release-Visual Studio" CONFIG_NAME="Release" TOOLCHAIN_NAME="Visual Studio" GENERATION_OPTIONS="-DMAYA_VERSION=2020 -G &quot;Visual Studio 16 2019&quot; -A x64" ENABLED="false" />
+      <configuration PROFILE_NAME="Release Linux" CONFIG_NAME="Release" TOOLCHAIN_NAME="Default" GENERATION_OPTIONS="-G &quot;Unix Makefiles&quot; -DMAYA_VERSION=none" ENABLED="false">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="MAYA_LOCATION" value="../libraries/maya_dev_kit" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
     </configurations>
   </component>
 </project>
